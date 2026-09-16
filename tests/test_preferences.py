@@ -16,7 +16,7 @@ class PreferencesTests(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
         self.addCleanup(self.tmp.cleanup)
-        self.root = Path(self.tmp.name)
+        self.root = Path(self.tmp.name).resolve()
         self.home = self.root / 'codex'
         self.project = self.root / 'project'
         self.project.mkdir()
