@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Click to Answer logo">
+  <rect width="256" height="256" rx="56" fill="#2764E7"/>
+  <rect x="38" y="55" width="180" height="62" rx="17" fill="white"/>
+  <path d="m61 86 12 12 25-27" fill="none" stroke="#2764E7" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M119 85h72" stroke="#2764E7" stroke-width="10" stroke-linecap="round"/>
+  <rect x="38" y="135" width="180" height="62" rx="17" fill="white" opacity=".28"/>
+  <path d="m160 140 4 67 17-20 25-5z" fill="#101D3A" stroke="white" stroke-width="5" stroke-linejoin="round"/>
+</svg>

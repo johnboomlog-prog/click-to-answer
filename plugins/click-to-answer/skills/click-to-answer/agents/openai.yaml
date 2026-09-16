@@ -1,0 +1,6 @@
+interface:
+  display_name: "Click to Answer · 点选回答"
+  short_description: "Enable, inspect and test persistent clickable choices"
+  default_prompt: "Use $click-to-answer to enable persistent clickable-answer preferences for this project and verify the configuration."
+policy:
+  allow_implicit_invocation: true

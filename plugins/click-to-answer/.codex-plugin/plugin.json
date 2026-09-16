@@ -1,0 +1,31 @@
+{
+  "name": "click-to-answer",
+  "version": "0.2.0",
+  "description": "Enable, inspect and remove persistent native-choice preferences for Codex.",
+  "author": {
+    "name": "johnboomlog-prog",
+    "url": "https://github.com/johnboomlog-prog"
+  },
+  "skills": "./skills/",
+  "license": "MIT",
+  "interface": {
+    "displayName": "Click to Answer · 点选回答",
+    "shortDescription": "开启常驻点选偏好，少打字，多点选。",
+    "longDescription": "为 Codex 设置项目或全局点选偏好，支持开启、查看状态、自检和精确关闭。已有指令会保留，修改前自动备份。后续任务优先使用原生 YES/NO 和编号选项；控件及可用模式由客户端决定。无兼容工具时回退文字。安装不会自动修改全局偏好。",
+    "developerName": "johnboomlog-prog",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "为当前项目开启常驻点选回答。",
+      "检查点选回答是否配置成功，并演示原生选择。",
+      "关闭全局点选回答，保留其他指令。"
+    ],
+    "logo": "./assets/logo.svg",
+    "brandColor": "#2764E7",
+    "websiteURL": "https://github.com/johnboomlog-prog/click-to-answer",
+    "privacyPolicyURL": "https://github.com/johnboomlog-prog/click-to-answer/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/johnboomlog-prog/click-to-answer/blob/main/TERMS.md"
+  },
+  "homepage": "https://github.com/johnboomlog-prog/click-to-answer",
+  "repository": "https://github.com/johnboomlog-prog/click-to-answer"
+}

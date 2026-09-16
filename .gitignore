@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+dist/
+.click-to-answer-backups/
+.release-stage/
+# Local development records contain workstation paths and conversation evidence.
+docs/live-test.md
+docs/verification.md
+docs/*.local.txt
+docs/superpowers/

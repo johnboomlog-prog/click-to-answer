@@ -1,0 +1,20 @@
+{
+  "name": "click-to-answer",
+  "interface": {
+    "displayName": "Click To Answer"
+  },
+  "plugins": [
+    {
+      "name": "click-to-answer",
+      "source": {
+        "source": "local",
+        "path": "./plugins/click-to-answer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
