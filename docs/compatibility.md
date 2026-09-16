@@ -3,7 +3,7 @@
 | Layer | Status |
 | --- | --- |
 | Python 3.12 on Windows: preference CLI integration tests | Locally tested; run the suite for current count |
-| Python 3.11/3.13 on Windows, macOS, Linux | CI matrix configured; remote runs not yet executed |
+| Python 3.11/3.13 on Windows, macOS, Linux | Remote matrix runs available in [GitHub Actions](https://github.com/johnboomlog-prog/click-to-answer/actions); inspect the release commit's result |
 | 0.1.0 Codex desktop Default-mode native async questions | Tool accepted; actual YES/NO and a later two-option reply received |
 | Four-option native question | Desktop UI displayed all four options; fourth option clicked and TXT answer received in the 2026-09-16 live run |
 | Immediate final response after async question | User reported control disappeared; waiting later received an answer; causal fix not proven |

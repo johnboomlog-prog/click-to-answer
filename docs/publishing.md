@@ -2,7 +2,7 @@
 
 ## GitHub
 
-The repository and marketplace are prepared for publication; no owner or remote URL is assumed. Select an actual GitHub account and repository before pushing. Keep the repository name `click-to-answer` unless another name is wanted.
+Public repository and independently installable marketplace: https://github.com/johnboomlog-prog/click-to-answer. Maintainer: `johnboomlog-prog`. Official directory submission remains a separate process.
 
 1. Run `python -m unittest discover -s tests -v` and `python scripts/build_release.py`.
 2. Review tracked files. `.gitignore` excludes local dialogue evidence, development notes, archives and backups. Never force-add these private records.
@@ -17,7 +17,14 @@ The GitHub Actions workflow only tests/builds artifacts. It never publishes a re
 
 The plugin is skills-only with a bundled local setup script. Surface support for executing that script must be stated. Marketplace review acceptance is not guaranteed.
 
-Public submission requires a verified publisher, matching author/developer identity, public support/website/privacy/terms URLs, a logo and test cases. `Local developer` in the development manifest must be replaced with the real publisher name. The logo source is included as SVG; export any additional format required by the portal before submission.
+Public submission requires a verified publisher, matching author/developer identity, public support/website/privacy/terms URLs, a logo and test cases. The GitHub maintainer is recorded in the manifest; match this to the actual verified publisher before official submission. The logo source is included as SVG; export any additional format required by the portal before submission.
+
+Listing URLs:
+
+- Website: https://github.com/johnboomlog-prog/click-to-answer
+- Support: https://github.com/johnboomlog-prog/click-to-answer/issues
+- Privacy: https://github.com/johnboomlog-prog/click-to-answer/blob/main/PRIVACY.md
+- Terms: https://github.com/johnboomlog-prog/click-to-answer/blob/main/TERMS.md
 
 Use the draft in `plugins/click-to-answer/SUBMISSION.md`. Review the exact package, permissions and policy attestations before submitting; publication is separate from submission and approval.
 

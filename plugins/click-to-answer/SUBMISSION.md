@@ -31,7 +31,7 @@ The setup script reads AGENTS.md / AGENTS.override.md in the explicitly selected
 ## Remaining public submission requirements
 
 - Verified publisher identity and Apps Management write access.
-- Replace Local developer with that real identity; add matching public website, support, privacy and terms URLs.
+- Confirm the verified Platform identity matches the public GitHub maintainer identity and listing URLs in the manifest. Support: https://github.com/johnboomlog-prog/click-to-answer/issues.
 - Confirm regional availability and review policy attestations.
 - Included SVG logo is source artwork; export any additional portal-required format.
 - Local CLI startup-rule loading and ten desktop choice scenarios, including four choices, were observed on 2026-09-16. Two panels required reopening. See the repository's docs/choice-ui-test-2026-09-16.md; this is not proof of automatic triggering reliability in fresh tasks.
